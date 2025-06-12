@@ -103,11 +103,11 @@ function goHome() {
         <i class="pi pi-chevron-left" style="font-size: 1rem" @click="goHome"></i>
 
         <div class="relative my-8 w-full">
-          <InputText
+          <input
             v-model="word"
             @keyup.enter="fetchDefinition"
             placeholder="Search"
-            class="w-full pr-12 py-2 px-4 outline-[#819A91] bg-white"
+            class="w-full pr-4 py-3 px-4 outline-[#819A91] bg-white rounded-xl"
           />
           <InputIcon
             class="pi pi-search absolute right-3 top-1/2 -translate-y-1/2 text-white bg-[#819A91] rounded-full p-2 cursor-pointer"

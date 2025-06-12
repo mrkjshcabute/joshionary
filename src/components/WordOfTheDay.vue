@@ -59,7 +59,7 @@ onMounted(() => {
       class="text-[#819A91] text-left text-3xl md:text-5xl w-[90%] break-words font-bold cursor-pointer hover:underline"
       @click="goToSearch"
     >
-      {{ wordOfTheDay }}
+      {{ wordOfTheDay }}.
     </p>
     <div class="w-full border-2 border-t border-[#819A91] my-4"></div>
 
