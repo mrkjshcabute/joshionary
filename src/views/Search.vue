@@ -97,7 +97,7 @@ function goHome() {
 </script>
 
 <template>
-  <div class="flex flex-col justify-center items-center py-[8px]">
+  <div class="flex flex-col justify-center items-center py-[8px] text-black">
     <div class="w-[20rem] md:w-[30rem]">
       <div class="flex justify-between items-center gap-4">
         <i class="pi pi-chevron-left" style="font-size: 1rem" @click="goHome"></i>
@@ -107,7 +107,7 @@ function goHome() {
             v-model="word"
             @keyup.enter="fetchDefinition"
             placeholder="Search"
-            class="w-full pr-12 py-2 px-4 outline-[#819A91]"
+            class="w-full pr-12 py-2 px-4 outline-[#819A91] bg-white"
           />
           <InputIcon
             class="pi pi-search absolute right-3 top-1/2 -translate-y-1/2 text-white bg-[#819A91] rounded-full p-2 cursor-pointer"
