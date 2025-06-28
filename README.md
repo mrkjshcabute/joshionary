@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="src/assets/joshionary-logo.png" alt="Joshionary Logo" width="200"/>
+  <img src="src/assets/joshionary-logo.png" alt="Joshionary Logo" width="300"/>
 </div>
 
 # 📚 Joshionary
@@ -21,7 +21,7 @@ Joshionary is a sleek and functional dictionary web app that lets you explore En
 
 ## 🌐 Live Demo
 
-[Visit Joshionary](joshionary.vercel.app)
+[Visit Joshionary](https://joshionary.vercel.app)
 
 ## 📸 Preview
 
