@@ -26,7 +26,7 @@ async function fetchWordOfTheDay() {
   }
 
   let validWord = ''
-  for (let attempts = 0; attempts < 10; attempts++) {
+  for (let attempts = 0; attempts < 3; attempts++) {
     try {
       const randomWord = await fetchRandomWord()
       const defRes = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${randomWord}`)

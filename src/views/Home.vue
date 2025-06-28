@@ -4,7 +4,6 @@ import { useRouter } from 'vue-router'
 import WordOfTheDay from '../components/WordOfTheDay.vue'
 
 import InputIcon from 'primevue/inputicon'
-import InputText from 'primevue/inputtext'
 
 const word = ref('')
 const router = useRouter()
