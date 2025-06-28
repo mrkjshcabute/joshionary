@@ -79,7 +79,7 @@ function goHome() {
             v-model="word"
             @keyup.enter="fetchDefinition"
             placeholder="Search"
-            class="w-full pr-4 py-3 px-4 outline-[#819A91] hover:outline-[#819A91] bg-white rounded-xl active:outline-2 active:outline-[#819A91]"
+            class="w-full pr-4 py-3 px-4 outline-[#819A91] hover:outline-[#819A91] bg-white rounded-xl focus:outline-2 focus:outline-[#819A91]"
           />
           <InputIcon
             class="pi pi-search absolute right-3 top-1/2 -translate-y-1/2 text-white bg-[#819A91] rounded-full p-2 cursor-pointer"
